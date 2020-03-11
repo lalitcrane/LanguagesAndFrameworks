@@ -1,0 +1,30 @@
+
+# Python with Java -  Improves Python Program's Performance
+Jython Framework
+   Good Framework, when we want to mix Python and Java far too frequently.
+   Allows Calling Python from Java and Calling Java from Python
+   Easier to work when you need to write lot of code in Java. 
+   e.g. When it is easier to use Java Collections Frameowork
+   The inter thread communication ????
+   
+   Easy to write, because of Direct Access to Java Packages
+   
+Py4J
+   Uses Java Gateway server to execute Java Code.
+   Python program sends the code to Java Gateway server to execute Java Code.
+   Good Framework, when we do not want to send lot of data between Python and Java
+   Easy to write, because of Direct Access to Java Packages
+   
+   
+# Python with C/C++  - Improves Python Program's Performance
+
+Cython Framework
+
+  Not Easy to Handle C Datatypes in Python
+  
+ctypes
+
+   Included in Python Standard Library
+   Ok Dokey, when we want to include small code.
+   
+   
