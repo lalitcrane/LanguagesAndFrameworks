@@ -15,6 +15,19 @@ Py4J
    Good Framework, when we do not want to send lot of data between Python and Java
    Easy to write, because of Direct Access to Java Packages
    
+Pyjnius
+   Easiest way to do it. But don't know how it works and how efficient it is.
+   
+>>> from jnius import autoclass
+>>> autoclass('java.lang.System').out.println('Hello world') Hello world
+
+>>> Stack = autoclass('java.util.Stack')
+>>> stack = Stack()
+>>> stack.push('hello')
+>>> stack.push('world')
+>>> print stack.pop() world
+>>> print stack.pop() hello
+   
    
 # Python with C/C++  - Improves Python Program's Performance
 
